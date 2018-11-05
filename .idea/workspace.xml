@@ -1,7 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="106b2a53-10a3-4808-a6d1-8d4b53875e1e" name="Default Changelist" comment="" />
+    <list default="true" id="106b2a53-10a3-4808-a6d1-8d4b53875e1e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_archive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_archive_day.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_archive_month.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_archive_year.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmark/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmark/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmark/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmark/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmark/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmark/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmark/templates/bookmark/tabular_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmark/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmark/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookmark/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lstModule.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/master" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/wsgi.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,8 +306,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="669" y="20" width="601" height="620" extended-state="0" />
-    <editor active="true" />
+    <frame x="669" y="20" width="601" height="620" extended-state="1" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.43253234" />
@@ -279,7 +315,7 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.100616015" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.5790554" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
