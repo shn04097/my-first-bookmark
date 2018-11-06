@@ -13,7 +13,7 @@
       height: 30px;
       width: 100%;
       display: table;
-      background: linear-gradient(to top, #ff0000, #ff9000, #fff000, #06ff00, #00ffc0, #009cff, #0024ff, #7200ff);
+      background: linear-gradient(to right, #ff0000, #ff9000, #fff000, #06ff00, #00ffc0, #009cff, #0024ff, #7200ff);
   }
 
   div#menu {
