@@ -1,8 +1,9 @@
-@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+/*@import url(//fonts.googleapis.com/earlyaccess/hanna.css);*/
 
-.hanna * {
- font-family: 'Hanna', fantasy;
-}
+/*.hanna * {*/
+ /*font-family: 'Hanna', fantasy;*/
+/*}*/
+
 /*@font-face {*/
   /*font-family: 'Jeju Gothic';*/
   /*font-style: normal;*/
@@ -24,7 +25,9 @@
       /*font-style: normal;*/
       /*font-weight: 400;*/
 
-      font-family: 'Hanna', fantasy;
+      /*font-family: 'Hanna', fantasy;*/
+
+      font-family: '나눔바른펜', fantasy;
   }
 
   /* PAGE STRUCTURE */
