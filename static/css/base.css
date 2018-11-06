@@ -1,10 +1,9 @@
   body {
       /*font-family: "Lucida Grande", Verdana, Arial, sans-serif;*/
-  font-family: 'SungDongGothic';
-  font-style: normal;
-  font-weight: 700;
-  src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/sdgu/SungDongGothic/SungDongGothicB.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/sdgu/SungDongGothic/SungDongGothicB.woff') format('woff');
-}
+      font-family: 'Sunflower', sans-serif;
+      font-size: 20px;
+
+  }
 
   /* PAGE STRUCTURE */
   div#header {                
