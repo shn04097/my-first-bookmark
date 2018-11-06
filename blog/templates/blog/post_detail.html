@@ -1,3 +1,34 @@
+{% extends "base.html" %}
+{% block title %}장고 게시글 보기{% endblock %}
+{% load staticfiles %}
+{% block extrastyle %}{% static "css/tabular.css" %}{% endblock %}
+{% block content %}
+    <!--div#content 내부로 전체 콘텐츠 이동-->
+    <div id="content" class="centered">
+        <h2>{{ object.title }}</h2>
+        <p class="other_posts">
+            {% if object.get_previous_by_modify_date %}
+                <a href="{{ object.get_previous_post.get_absolute_url }}" title="View previous post">
+                    &laquo;-- {{ object.get_previous_post }}
+                </a>
+            {% endif %}
+
+            {% if object.get_next_by_modify_date %}
+                &nbsp; |
+                <a href="{{ object.get_next_post.get_absolute_url }}" title="View next post">
+                    {{ object.get_next_post }} --&raquo;
+                </a>
+            {% endif %}
+        </p>
+        <p class="date">{{ object.modify_date|date:"j F Y" }}</p>
+        <br/>
+
+        <div class="body">
+            {{ object.content|linebreaks }}
+        </div>
+    </div>
+{% endblock %}}
+
 <!--특별한 HTML 태그 지정이 없으면 장고가 <body> </body> 영역으로 간주함-->
 <!--아래에서 object 객체는 PostDV 클래스 형 뷰에서
 컨텍스트 변수로 넘겨주는 Post 클래스의 특정 객체-->
