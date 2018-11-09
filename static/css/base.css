@@ -10,28 +10,29 @@
       position: absolute;
       top: 0px;
       left: 0px;
-      height: 40px;
+      height: 30px;
       width: 100%;
       display: table;
-      background: linear-gradient(to right, #ff0000, #ff9000, #fff000, #06ff00, #00ffc0, #009cff, #0024ff, #7200ff);
+      /*background: linear-gradient(to right, #ff0000, #ff9000, #fff000, #06ff00, #00ffc0, #009cff, #0024ff, #7200ff);*/
+      background: #06ff00;
   }
 
   div#menu {
       position: absolute;
-      top: 40px;
+      top: 30px;
       left: 0px;
-      height: 70px;
+      height: 20px;
       width: 100%;
       display: table;
       table-layout: fixed;
       border-spacing: 40px 0px;
       background: #ffa;
-      font-size: 10px;
+      font-size: 8px;
   }
 
   div#content {
       position: absolute;
-      top: 110px;
+      top: 70px;
       left: 50px;
       right: 50px;
   }
