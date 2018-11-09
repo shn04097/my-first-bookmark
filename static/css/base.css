@@ -20,7 +20,7 @@
       position: absolute;
       top: 40px;
       left: 0px;
-      height: 60px;
+      height: 70px;
       width: 100%;
       display: table;
       table-layout: fixed;
@@ -31,7 +31,7 @@
 
   div#content {
       position: absolute;
-      top: 70px;
+      top: 110px;
       left: 50px;
       right: 50px;
   }
