@@ -61,7 +61,7 @@
                 <td>태그</td>
                 <td>
                     {% for tag in tags %}
-                        <a id="tag" href="{% url 'blog:tagged_object_list' tag.name %}">
+                        <a href="{% url 'blog:tagged_object_list' tag.name %}">
                           {{tag.name}}&nbsp;&nbsp;
                         </a>
                     {% endfor %}
@@ -72,7 +72,7 @@
                 <td>
                     <!--http://localhost:8000/blog/tag/-->
                     <!--embed 태그를 활용해서 src에 지정된 템플릿을 해당 영역에 출력-->
-                    <embed type="text/html" src="{% url 'blog:tag_cloud' %}">
+                    <embed id="tag" type="text/html" src="{% url 'blog:tag_cloud' %}">
                 </td>
             </tr>
             
