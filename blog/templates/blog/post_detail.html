@@ -11,6 +11,8 @@
                 <a href="{{ object.get_previous_post.get_absolute_url }}" title="View previous post">
                     &laquo;-- {{ object.get_previous_post }}
                 </a>
+            {% else %}
+                첫 게시글
             {% endif %}
 
             {% if object.get_next_by_modify_date %}
@@ -18,6 +20,8 @@
                 <a href="{{ object.get_next_post.get_absolute_url }}" title="View next post">
                     {{ object.get_next_post }} --&raquo;
                 </a>
+            {% else %}
+                마지막 게시글
             {% endif %}
         </p></h2>
 
@@ -72,7 +76,7 @@
                 <td>
                     <!--http://localhost:8000/blog/tag/-->
                     <!--embed 태그를 활용해서 src에 지정된 템플릿을 해당 영역에 출력-->
-                    <embed id="tag" type="text/html" src="{% url 'blog:tag_cloud' %}">
+                    <embed type="text/html" src="{% url 'blog:tag_cloud' %}">
                 </td>
             </tr>
             
