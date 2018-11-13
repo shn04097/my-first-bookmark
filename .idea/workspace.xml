@@ -70,7 +70,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_all.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
+            <state relative-caret-position="29">
               <caret line="33" selection-start-line="33" selection-end-line="34" selection-end-column="25" />
             </state>
           </provider>
@@ -97,13 +97,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
+            <state relative-caret-position="232">
               <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
               <folding>
                 <element signature="e#465#472#0" expanded="true" />
                 <element signature="e#624#630#0" expanded="true" />
                 <element signature="e#632#638#0" expanded="true" />
                 <element signature="e#772#779#0" expanded="true" />
+                <element signature="e#896#902#0" expanded="true" />
                 <element signature="e#2305#2311#0" expanded="true" />
                 <element signature="e#2311#2317#0" expanded="true" />
               </folding>
@@ -295,7 +296,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21214575" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21214575" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -309,7 +310,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.042704627" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.36654803" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -397,13 +398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_all.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="33" selection-start-line="33" selection-end-line="34" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
@@ -418,15 +412,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_all.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="33" selection-start-line="33" selection-end-line="34" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
+        <state relative-caret-position="232">
           <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
           <folding>
             <element signature="e#465#472#0" expanded="true" />
             <element signature="e#624#630#0" expanded="true" />
             <element signature="e#632#638#0" expanded="true" />
             <element signature="e#772#779#0" expanded="true" />
+            <element signature="e#896#902#0" expanded="true" />
             <element signature="e#2305#2311#0" expanded="true" />
             <element signature="e#2311#2317#0" expanded="true" />
           </folding>
